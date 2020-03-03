@@ -25,6 +25,7 @@ SET(FREERTOS_SRC_FILES
 	queue.c
 	tasks.c
 	timers.c
+	stream_buffer.c
 )
 
 SET(FREERTOS_HEADERS
@@ -42,6 +43,7 @@ SET(FREERTOS_HEADERS
 	StackMacros.h
 	task.h
 	timers.h
+	stream_buffer.h
 )
 
 SET(CMSIS_OS_SRC_FILE cmsis_os.c)
